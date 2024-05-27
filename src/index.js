@@ -1,7 +1,7 @@
 import ReactDom from "react-dom/client"
 import Home from "./views/Home"
 import About from "./views/About"
-
+import Contact from "./views/Contact"
 
 const root = ReactDom.createRoot(document.getElementById('root'))
 
