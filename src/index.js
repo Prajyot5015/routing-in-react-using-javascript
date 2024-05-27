@@ -1,7 +1,8 @@
 import ReactDom from "react-dom/client"
-import Home from "./views/Home"
-import About from "./views/About"
-import Contact from "./views/Contact"
+import "./style.css"
+import Home from "./views/Home/Home"
+import About from "./views/About/About"
+import Contact from "./views/Contact/Contact"
 
 const root = ReactDom.createRoot(document.getElementById('root'))
 
